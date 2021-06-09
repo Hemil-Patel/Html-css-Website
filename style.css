@@ -1,0 +1,119 @@
+h1
+{
+    color: #000000;
+    background-color: blanchedalmond;
+    font-family: impact,Helvetica, serif;
+    font-size: 42px;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
+    text-align: center;
+}
+#main_nav {
+   background-color: burlywood ;
+   border: 5px black dashed;
+   border-radius: 15px;
+}
+#main_nav ul{
+padding: 0;
+list-style: none;
+}
+#main_nav li{
+    display: inline;
+}
+#main_nav a{
+    color:black;
+    font-size: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a :hover{
+    color: red;
+}
+a :visited{
+    color: seagreen;
+}
+body
+{
+    color: #352c2c;
+    background-color: blanchedalmond;
+    font-family: Helvetica, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    
+    
+}
+.form01
+{
+    color: #000000;
+    background-color: burlywood;
+    border-right: 5px black dashed;
+    border-left: 5px black dashed;
+    border-top: 5px black dashed;
+    border-bottom: 5px black dashed;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+    border-radius: 30px; 
+    width: 50%;
+    /*background-image: url('1.png');*/
+}
+.form01 h4{
+    text-align: center;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    list-style: square;
+}
+.categories li{
+    padding: 6px;
+}
+.form01 input[type="button"]
+{
+    padding: 4px 8px;
+    color:white;
+    background-color: black;
+    border: solid gray;
+}
+.box {
+    float: left;
+    width: 33.33%;
+}
+#mainbox {
+    margin-top: 100px;
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+#sidebar {
+    margin-top: 100px;
+    float: right;
+    width: 30%;
+    background-color: burlywood;
+    color: black;
+    border:5px black dashed ;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+.fix-me {
+    position: fixed;
+    top: 400px;
+    left: 30px;
+    background-color: burlywood;
+    color: black;
+    border:2px black dashed ;
+    border-radius: 5px;
+}
